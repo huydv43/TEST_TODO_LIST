@@ -1,0 +1,72 @@
+.wrapper-todos {
+
+
+    .bulk-action {
+        margin: 15px 20px;
+        padding: 10px 0;
+        border-radius: 4px;
+        border: .3px solid #333;
+
+        span {
+            margin-left: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .action__detail, .action__remove {
+            float: right;
+            height: 30px;
+            margin-top: -5px;
+
+            margin-right: 10px;
+            border-radius: 4px;
+            border: none;
+            
+            color: white;
+            &:hover {
+                cursor: pointer;
+                opacity: .7;
+            }
+        }
+
+        .action__detail {
+            padding: 0 15px;
+            background: #00BCD4;
+
+        }
+
+        .action__remove {
+            padding: 0 10px;
+            background: #D9534F;
+        }
+    }
+
+    .no-task {
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .filter {
+        padding: 0 20px;
+
+        .filter__form{
+            .filter__form--input {
+                height: 35px;
+                width: 100%;
+                border: .3px solid #333;
+                border-radius: 4px;
+                outline: none;
+            }
+
+            input[type=text] {
+                padding: 0 20px;
+                font-weight: 600;
+            }
+        }
+
+    }
+
+    ul {
+        padding: 0 20px;
+    }
+}

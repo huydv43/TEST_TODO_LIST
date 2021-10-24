@@ -1,0 +1,29 @@
+.app {
+  // reset css
+  margin-top: 50px;
+  .wrapper {
+    border: 1px solid #3333;
+  }
+
+  
+  h1 {
+    color: deeppink;
+  }
+
+  .todo-form {
+    border-right: 1px solid #3333;
+
+    .heading-form {
+      text-align: center;
+    }
+  }
+  .todo-content {
+    // border: 1px solid #3333;
+
+    .heading-content {
+      text-align: center;
+    }
+  }
+
+}
+
